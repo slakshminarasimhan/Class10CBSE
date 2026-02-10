@@ -167,14 +167,17 @@ export default function DistanceFormula() {
             </div>
 
             {/* Industrial App: GPS - Full Width */}
-            <div className="bg-sky-50 p-6 rounded-lg border border-sky-100 shadow-sm flex gap-4 items-center">
-                <div className="text-3xl">📡</div>
-                <div>
-                    <h5 className="font-bold text-sky-900 mb-1">GPS Navigation</h5>
-                    <p className="text-sm text-sky-800">
-                        GPS satellites use the <strong>Distance Formula</strong> (in 3D space) to calculate exactly how far you are from them. By combining distances from 3 or more satellites (Triangulation), your phone knows exactly where you are!
-                    </p>
+            <div className="bg-sky-50 p-6 rounded-lg border border-sky-100 text-sky-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
                 </div>
+                <h5 className="font-bold flex items-center gap-2 mb-2">
+                    <span className="text-xl">📡</span> GPS Navigation
+                </h5>
+                <p className="text-sm">
+                    GPS satellites use the <strong>Distance Formula</strong> (in 3D space) to calculate exactly how far you are from them. By combining distances from 3 or more satellites (Triangulation), your phone knows exactly where you are!
+                </p>
             </div>
 
             {/* Practical Assignment - Full Width */}

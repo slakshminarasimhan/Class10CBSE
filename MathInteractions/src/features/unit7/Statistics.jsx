@@ -133,6 +133,10 @@ export default function Statistics() {
 
             {/* Industrial App: Data Science - Full Width */}
             <div className="bg-violet-50 p-6 rounded-lg border border-violet-200 text-violet-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
                 <h5 className="font-bold flex items-center gap-2 mb-2">
                     <span className="text-xl">📊</span> Data Science
                 </h5>
@@ -144,10 +148,10 @@ export default function Statistics() {
             {/* Practical Assignment - Full Width */}
             <PracticalAssignment
                 unit="Unit VII: Statistics & Probability"
-                question="A market research team surveys 100 customers about their spending. The data shows: 20 spent $10, 30 spent $20, 40 spent $30, and 10 spent $40. What is the mean spending (in dollars)?"
+                question="A market research team surveys 100 customers about their spending. The data shows: 20 spent ₹10, 30 spent ₹20, 40 spent ₹30, and 10 spent ₹40. What is the mean spending (in rupees)?"
                 correctAnswer="24"
                 hint="Mean = Σ(frequency × value) / total. Calculate: (20×10 + 30×20 + 40×30 + 10×40) / 100."
-                explanation="Excellent! (200 + 600 + 1200 + 400) / 100 = 2400 / 100 = $24. Companies use mean, median, and mode to understand customer behavior, set pricing strategies, and forecast demand. This data-driven approach is the foundation of modern business!"
+                explanation="Excellent! (200 + 600 + 1200 + 400) / 100 = 2400 / 100 = ₹24. Companies use mean, median, and mode to understand customer behavior, set pricing strategies, and forecast demand. This data-driven approach is the foundation of modern business!"
             />
         </div>
     );

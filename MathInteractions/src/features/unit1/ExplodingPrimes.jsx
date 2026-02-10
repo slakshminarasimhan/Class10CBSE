@@ -158,12 +158,16 @@ export default function ExplodingPrimes() {
             </div>
 
             {/* Industrial Application: Cryptography - Full Width */}
-            <div className="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
-                <h4 className="flex items-center gap-2 font-bold text-slate-700 mb-2">
-                    <span className="p-1 bg-blue-200 rounded text-blue-700">🔐</span>
-                    Industrial Application: Cryptography
-                </h4>
-                <p className="text-sm text-slate-600">
+            {/* Industrial Application: Cryptography - Full Width */}
+            <div className="bg-blue-50 p-6 rounded-lg border border-blue-200 text-blue-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
+                <h5 className="font-bold flex items-center gap-2 mb-2">
+                    <span className="text-xl">🔐</span> Cryptography
+                </h5>
+                <p className="text-sm">
                     <strong>RSA Encryption</strong> relies on prime factorization. It is easy to multiply two large primes together, but incredibly difficult to take the result and find the original primes. This one-way function secures your credit card details online.
                 </p>
             </div>

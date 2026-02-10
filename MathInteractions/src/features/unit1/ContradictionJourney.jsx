@@ -178,18 +178,20 @@ export default function ContradictionJourney() {
             </div>
 
             {/* Industrial Application: A4 Paper - Full Width */}
-            <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col md:flex-row gap-4 items-center">
-                <div className="p-3 bg-slate-100 rounded-full shadow-sm">
-                    <span className="text-2xl">📄</span>
+            {/* Industrial Application: A4 Paper - Full Width */}
+            <div className="bg-slate-50 p-6 rounded-lg border border-slate-200 text-slate-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
                 </div>
-                <div>
-                    <h4 className="font-bold text-slate-700 mb-1">Industrial Application: Why A4 Paper is Special</h4>
-                    <p className="text-sm text-slate-600">
-                        International paper sizes (A3, A4, A5) are based on the <strong>Aspect Ratio 1:√2</strong>.
-                        When you fold an A4 sheet in half, the ratio of sides remains exactly 1:√2 (becoming A5).
-                        This ensures content scales perfectly without distortion when resizing documents!
-                    </p>
-                </div>
+                <h5 className="font-bold flex items-center gap-2 mb-2">
+                    <span className="text-xl">📄</span> Why A4 Paper is Special
+                </h5>
+                <p className="text-sm">
+                    International paper sizes (A3, A4, A5) are based on the <strong>Aspect Ratio 1:√2</strong>.
+                    When you fold an A4 sheet in half, the ratio of sides remains exactly 1:√2 (becoming A5).
+                    This ensures content scales perfectly without distortion when resizing documents!
+                </p>
             </div>
 
             {/* Practical Assignment - Full Width */}

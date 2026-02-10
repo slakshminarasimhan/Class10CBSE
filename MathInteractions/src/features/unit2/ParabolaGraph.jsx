@@ -131,6 +131,10 @@ export default function ParabolaGraph() {
 
             {/* Industrial App: Projectile Motion - Full Width */}
             <div className="bg-slate-800 text-slate-200 p-6 rounded-lg text-sm border border-slate-700 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
                 <h5 className="font-bold text-white mb-2 flex items-center gap-2">
                     🚀 Projectile Motion
                 </h5>

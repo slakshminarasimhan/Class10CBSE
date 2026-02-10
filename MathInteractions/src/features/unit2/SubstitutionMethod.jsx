@@ -191,6 +191,10 @@ export default function SubstitutionMethod() {
 
             {/* Industrial App: Supply Chain - Full Width */}
             <div className="bg-teal-50 p-6 rounded-lg border border-teal-200 text-teal-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
                 <h5 className="font-bold flex items-center gap-2 mb-2">
                     <span className="text-xl">📦</span> Supply Chain Optimization
                 </h5>
@@ -202,7 +206,7 @@ export default function SubstitutionMethod() {
             {/* Practical Assignment - Full Width */}
             <PracticalAssignment
                 unit="Unit II: Algebra - Linear Equations"
-                question="A factory produces chairs (x) and tables (y). Each chair needs 2 hours of labor and each table needs 3 hours. Total labor available is 18 hours. If chairs cost $50 and tables cost $80, and total budget is $400, how many chairs can be produced? (Equations: 2x + 3y = 18 and 50x + 80y = 400)"
+                question="A factory produces chairs (x) and tables (y). Each chair needs 2 hours of labor and each table needs 3 hours. Total labor available is 18 hours. If chairs cost ₹50 and tables cost ₹80, and total budget is ₹400, how many chairs can be produced? (Equations: 2x + 3y = 18 and 50x + 80y = 400)"
                 correctAnswer="3"
                 hint="Use substitution: From equation 1, express y in terms of x, then substitute into equation 2 to solve for x."
                 explanation="Excellent! From 2x + 3y = 18, we get y = (18 - 2x)/3. Substituting into 50x + 80y = 400: 50x + 80(18-2x)/3 = 400. Solving: 150x + 1440 - 160x = 1200, so -10x = -240, giving x = 24... wait, that's too high! Let me recalculate: 50x + 80(6-2x/3) = 400, which gives x = 3 chairs!"

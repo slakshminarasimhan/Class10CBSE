@@ -142,6 +142,10 @@ export default function TrigRelationships() {
 
             {/* Industrial App: Electrical Engineering - Full Width */}
             <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200 text-yellow-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
                 <h5 className="font-bold flex items-center gap-2 mb-2">
                     <span className="text-xl">⚡</span> Electrical Engineering
                 </h5>

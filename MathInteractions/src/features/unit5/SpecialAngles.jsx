@@ -95,8 +95,8 @@ export default function SpecialAngles() {
                                     key={angle}
                                     onClick={() => setSelectedAngle(Number(angle))}
                                     className={`px-4 py-2 rounded-lg font-semibold transition-colors ${selectedAngle == angle
-                                            ? 'bg-red-500 text-white'
-                                            : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                                        ? 'bg-red-500 text-white'
+                                        : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                                         }`}
                                 >
                                     {angle}°
@@ -160,6 +160,10 @@ export default function SpecialAngles() {
 
             {/* Industrial App: Architecture - Full Width */}
             <div className="bg-indigo-50 p-6 rounded-lg border border-indigo-200 text-indigo-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
                 <h5 className="font-bold flex items-center gap-2 mb-2">
                     <span className="text-xl">🏛️</span> Architecture
                 </h5>

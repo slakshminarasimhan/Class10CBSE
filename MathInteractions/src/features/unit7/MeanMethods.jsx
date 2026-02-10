@@ -218,6 +218,10 @@ export default function MeanMethods() {
 
             {/* Industrial App: Market Research - Full Width */}
             <div className="bg-sky-50 p-6 rounded-lg border border-sky-200 text-sky-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
                 <h5 className="font-bold flex items-center gap-2 mb-2">
                     <span className="text-xl">📈</span> Market Research
                 </h5>

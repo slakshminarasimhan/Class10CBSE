@@ -145,30 +145,32 @@ export default function APSums() {
             </div>
 
             {/* Industrial App: Finance - Full Width */}
-            <div className="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
-                <div className="flex items-center gap-4 mb-4">
-                    <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center text-green-600">
-                        <span className="text-2xl">💰</span>
-                    </div>
-                    <h4 className="font-bold text-slate-800">Finance: Simple Interest</h4>
+            {/* Industrial App: Finance - Full Width */}
+            <div className="bg-green-50 p-6 rounded-lg border border-green-200 text-green-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
                 </div>
-                <p className="text-sm text-slate-600 mb-4">
+                <h5 className="font-bold flex items-center gap-2 mb-2">
+                    <span className="text-xl">💰</span> Finance: Simple Interest
+                </h5>
+                <p className="text-sm mb-4">
                     Savings accounts that pay <strong>Simple Interest</strong> follow an Arithmetic Progression!
                 </p>
-                <div className="bg-green-50 p-3 rounded text-xs font-mono text-green-800 block">
-                    Month 1: $100<br />
-                    Month 2: $110 (+$10)<br />
-                    Month 3: $120 (+$10)
+                <div className="bg-white/50 p-3 rounded text-xs font-mono border border-green-100 block">
+                    Month 1: ₹100<br />
+                    Month 2: ₹110 (+₹10)<br />
+                    Month 3: ₹120 (+₹10)
                 </div>
             </div>
 
             {/* Practical Assignment - Full Width */}
             <PracticalAssignment
                 unit="Unit II: Algebra"
-                question="You invest $1000 at 5% simple annual interest. Using the AP formula for sum (S_n = n/2 × (2a + (n-1)d)), calculate the TOTAL amount (principal + interest) after 10 years. Round to the nearest dollar."
+                question="You invest ₹1000 at 5% simple annual interest. Using the AP formula for sum (S_n = n/2 × (2a + (n-1)d)), calculate the TOTAL amount (principal + interest) after 10 years. Round to the nearest rupee."
                 correctAnswer="1500"
                 hint="First term a = 1050 (principal + first year interest). Common difference d = 50. Number of terms n = 10. But wait - you need TOTAL, which is the 10th term value, not the sum! Use a + (n-1)d."
-                explanation="Correct! After 10 years: 1000 + (10 × 50) = $1500. Banks use AP formulas to calculate interest schedules, loan amortization tables, and investment growth projections. Understanding this helps you make informed financial decisions!"
+                explanation="Correct! After 10 years: 1000 + (10 × 50) = ₹1500. Banks use AP formulas to calculate interest schedules, loan amortization tables, and investment growth projections. Understanding this helps you make informed financial decisions!"
             />
         </div>
     );

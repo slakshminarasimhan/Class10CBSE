@@ -165,6 +165,10 @@ export default function TangentsCircle() {
 
             {/* Industrial App: Optics - Full Width */}
             <div className="bg-cyan-50 p-6 rounded-lg border border-cyan-200 text-cyan-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
                 <h5 className="font-bold flex items-center gap-2 mb-2">
                     <span className="text-xl">👓</span> Optics & Lenses
                 </h5>

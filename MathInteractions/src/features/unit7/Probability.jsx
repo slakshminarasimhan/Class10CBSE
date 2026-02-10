@@ -166,6 +166,10 @@ export default function Probability() {
 
             {/* Industrial App: Insurance - Full Width */}
             <div className="bg-rose-50 p-6 rounded-lg border border-rose-200 text-rose-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
                 <h5 className="font-bold flex items-center gap-2 mb-2">
                     <span className="text-xl">☂️</span> Insurance
                 </h5>

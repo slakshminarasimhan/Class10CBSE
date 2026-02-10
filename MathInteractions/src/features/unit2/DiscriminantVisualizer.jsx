@@ -116,6 +116,10 @@ export default function DiscriminantVisualizer() {
 
             {/* Industrial App: Engineering - Full Width */}
             <div className="bg-orange-50 p-6 rounded-lg border border-orange-200 text-orange-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
                 <h5 className="font-bold flex items-center gap-2 mb-2">
                     <span className="text-xl">⚙️</span> Engineering Design
                 </h5>

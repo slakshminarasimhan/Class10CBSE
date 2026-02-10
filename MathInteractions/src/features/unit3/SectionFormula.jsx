@@ -139,8 +139,12 @@ export default function SectionFormula() {
 
             {/* Industrial App: Graphics - Full Width */}
             <div className="bg-indigo-50 p-6 rounded-lg border border-indigo-100 text-indigo-900 shadow-sm">
-                <h5 className="font-bold mb-1 flex items-center gap-2">
-                    🖥️ Computer Graphics
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
+                <h5 className="font-bold flex items-center gap-2 mb-2">
+                    <span className="text-xl">🖥️</span> Computer Graphics
                 </h5>
                 <p className="text-sm">
                     Resizing an image or rendering a 3D game Character relies on the <strong>Section Formula</strong>.

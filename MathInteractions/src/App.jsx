@@ -4,7 +4,7 @@ function Layout() {
   return (
     <div className="min-h-screen flex bg-slate-50">
       <aside className="w-64 bg-slate-900 text-white p-4 hidden md:block">
-        <h1 className="text-xl font-bold mb-6">Math Interactions</h1>
+        <h1 className="text-xl font-bold mb-6">CBSE Class X Mathematics</h1>
         <nav>
           <ul className="space-y-2">
             <li><a href="/" className="block p-2 hover:bg-slate-800 rounded">Home</a></li>
@@ -38,9 +38,61 @@ function Layout() {
 
 function Home() {
   return (
-    <div>
-      <h2 className="text-3xl font-bold mb-4">Welcome to Class X Math</h2>
-      <p className="text-slate-600">Select a unit from the sidebar to start exploring interactive modules.</p>
+    <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg border border-slate-200">
+      <div className="mb-8 p-6 bg-blue-50 rounded-lg border border-blue-100 text-slate-700">
+        <h3 className="text-lg font-bold text-blue-800 mb-3">About This Application</h3>
+        <ul className="list-disc pl-5 space-y-2">
+          <li><strong>CBSE Maths 10th Std:</strong> Comprehensive interactive animations covering the entire syllabus.</li>
+          <li><strong>Interactive Learning:</strong> Explore concepts through hands-on simulations and visualizers.</li>
+          <li><strong>Industrial Applications:</strong> Real-world examples (🏭) provided for every concept to show practical utility.</li>
+          <li><strong>Practical Assignments:</strong> Each industrial application is followed by a related assignment to test understanding.</li>
+        </ul>
+      </div>
+
+      <h2 className="text-2xl font-bold text-slate-800 mb-6 text-center border-b pb-4">
+        COURSE STRUCTURE CLASS –X, CBSE Syllabus
+      </h2>
+
+      <div className="overflow-x-auto">
+        <table className="w-full text-left border-collapse">
+          <thead>
+            <tr className="bg-slate-100 text-slate-700">
+              <th className="p-3 border border-slate-300 font-bold w-20 text-center">Units</th>
+              <th className="p-3 border border-slate-300 font-bold">Unit Name</th>
+            </tr>
+          </thead>
+          <tbody className="text-slate-600">
+            <tr>
+              <td className="p-3 border border-slate-300 text-center font-mono">I</td>
+              <td className="p-3 border border-slate-300 font-semibold">NUMBER SYSTEMS</td>
+            </tr>
+            <tr>
+              <td className="p-3 border border-slate-300 text-center font-mono">II</td>
+              <td className="p-3 border border-slate-300 font-semibold">ALGEBRA</td>
+            </tr>
+            <tr>
+              <td className="p-3 border border-slate-300 text-center font-mono">III</td>
+              <td className="p-3 border border-slate-300 font-semibold">COORDINATE GEOMETRY</td>
+            </tr>
+            <tr>
+              <td className="p-3 border border-slate-300 text-center font-mono">IV</td>
+              <td className="p-3 border border-slate-300 font-semibold">GEOMETRY</td>
+            </tr>
+            <tr>
+              <td className="p-3 border border-slate-300 text-center font-mono">V</td>
+              <td className="p-3 border border-slate-300 font-semibold">TRIGONOMETRY</td>
+            </tr>
+            <tr>
+              <td className="p-3 border border-slate-300 text-center font-mono">VI</td>
+              <td className="p-3 border border-slate-300 font-semibold">MENSURATION</td>
+            </tr>
+            <tr>
+              <td className="p-3 border border-slate-300 text-center font-mono">VII</td>
+              <td className="p-3 border border-slate-300 font-semibold">STATISTICS AND PROBABILITY</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

@@ -101,6 +101,10 @@ export default function TriangleSimilarity() {
 
             {/* Industrial App: Architecture - Full Width */}
             <div className="bg-amber-50 p-6 rounded-lg border border-amber-200 text-amber-900 shadow-sm">
+                <div className="flex items-center gap-2 mb-2 opacity-80">
+                    <span className="text-lg">🏭</span>
+                    <span className="text-xs font-bold uppercase tracking-wider">Industrial Application</span>
+                </div>
                 <h5 className="font-bold flex items-center gap-2 mb-2">
                     <span className="text-xl">🏛️</span> Architecture
                 </h5>
