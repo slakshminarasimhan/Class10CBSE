@@ -1,0 +1,198 @@
+[
+  {
+    "file": "unit1/ContradictionJourney.jsx",
+    "app": "📄 Why A4 Paper is Special"
+  },
+  {
+    "file": "unit1/ExplodingPrimes.jsx",
+    "app": "🔐 Cryptography"
+  },
+  {
+    "file": "unit1/IndustrialApps.jsx",
+    "app": "Cryptography (RSA Encryption)"
+  },
+  {
+    "file": "unit1/IndustrialApps.jsx",
+    "app": "Digital Computing"
+  },
+  {
+    "file": "unit2/APSums.jsx",
+    "app": "💰 Finance: Simple Interest"
+  },
+  {
+    "file": "unit2/DiscriminantVisualizer.jsx",
+    "app": "⚙️ Engineering Design"
+  },
+  {
+    "file": "unit2/IndustrialApps.jsx",
+    "app": "Finance & Economics"
+  },
+  {
+    "file": "unit2/IndustrialApps.jsx",
+    "app": "Physics & Ballistics"
+  },
+  {
+    "file": "unit2/IndustrialApps.jsx",
+    "app": "Chemical Engineering"
+  },
+  {
+    "file": "unit2/LinearSystemGraph.jsx",
+    "app": "🏭 Production Planning"
+  },
+  {
+    "file": "unit2/ParabolaGraph.jsx",
+    "app": "🚀 Projectile Motion"
+  },
+  {
+    "file": "unit2/SubstitutionMethod.jsx",
+    "app": "📦 Supply Chain Optimization"
+  },
+  {
+    "file": "unit2/ZerosCoefficients.jsx",
+    "app": "📡 Signal Processing"
+  },
+  {
+    "file": "unit3/DistanceFormula.jsx",
+    "app": "📡 GPS Navigation"
+  },
+  {
+    "file": "unit3/IndustrialApps.jsx",
+    "app": "GPS & Navigation"
+  },
+  {
+    "file": "unit3/IndustrialApps.jsx",
+    "app": "Computer Graphics"
+  },
+  {
+    "file": "unit3/IndustrialApps.jsx",
+    "app": "Robotics"
+  },
+  {
+    "file": "unit3/SectionFormula.jsx",
+    "app": "🖥️ Computer Graphics"
+  },
+  {
+    "file": "unit4/AAASimilarity.jsx",
+    "app": "🎥 Computer Graphics"
+  },
+  {
+    "file": "unit4/BPTVisualizer.jsx",
+    "app": "📐 Civil Engineering"
+  },
+  {
+    "file": "unit4/IndustrialApps.jsx",
+    "app": "Architecture & Construction"
+  },
+  {
+    "file": "unit4/IndustrialApps.jsx",
+    "app": "Optics & Lenses"
+  },
+  {
+    "file": "unit4/IndustrialApps.jsx",
+    "app": "Art & Perspective"
+  },
+  {
+    "file": "unit4/SASSimilarity.jsx",
+    "app": "✈️ Aerospace Engineering"
+  },
+  {
+    "file": "unit4/SSSSimilarity.jsx",
+    "app": "🏗️ Structural Engineering"
+  },
+  {
+    "file": "unit4/TangentsCircle.jsx",
+    "app": "👓 Optics & Lenses"
+  },
+  {
+    "file": "unit4/TangentsExternalPoint.jsx",
+    "app": "📡 Telecommunications"
+  },
+  {
+    "file": "unit4/TriangleSimilarity.jsx",
+    "app": "🏛️ Architecture"
+  },
+  {
+    "file": "unit5/HeightsDistances.jsx",
+    "app": "✈️ Navigation"
+  },
+  {
+    "file": "unit5/IndustrialApps.jsx",
+    "app": "Aviation & Navigation"
+  },
+  {
+    "file": "unit5/IndustrialApps.jsx",
+    "app": "Oceanography"
+  },
+  {
+    "file": "unit5/IndustrialApps.jsx",
+    "app": "Astronomy"
+  },
+  {
+    "file": "unit5/PythagoreanIdentity.jsx",
+    "app": "📡 Signal Processing"
+  },
+  {
+    "file": "unit5/SpecialAngles.jsx",
+    "app": "🏛️ Architecture"
+  },
+  {
+    "file": "unit5/TrigIdentities.jsx",
+    "app": "🎵 Audio Engineering"
+  },
+  {
+    "file": "unit5/TrigRatios.jsx",
+    "app": "🏗️ Construction"
+  },
+  {
+    "file": "unit5/TrigRelationships.jsx",
+    "app": "⚡ Electrical Engineering"
+  },
+  {
+    "file": "unit6/IndustrialApps.jsx",
+    "app": "Packaging & Manufacturing"
+  },
+  {
+    "file": "unit6/IndustrialApps.jsx",
+    "app": "HVAC & Architecture"
+  },
+  {
+    "file": "unit6/IndustrialApps.jsx",
+    "app": "Medicine"
+  },
+  {
+    "file": "unit6/SectorArea.jsx",
+    "app": "🍕 Food Industry"
+  },
+  {
+    "file": "unit6/SegmentArea.jsx",
+    "app": "🌉 Civil Engineering"
+  },
+  {
+    "file": "unit6/SolidLab.jsx",
+    "app": "🏭 Manufacturing"
+  },
+  {
+    "file": "unit7/IndustrialApps.jsx",
+    "app": "Quality Control (Six Sigma)"
+  },
+  {
+    "file": "unit7/IndustrialApps.jsx",
+    "app": "Insurance (Actuarial Science)"
+  },
+  {
+    "file": "unit7/IndustrialApps.jsx",
+    "app": "AI & Machine Learning"
+  },
+  {
+    "file": "unit7/MeanMethods.jsx",
+    "app": "📈 Market Research"
+  },
+  {
+    "file": "unit7/Probability.jsx",
+    "app": "☂️ Insurance"
+  },
+  {
+    "file": "unit7/Statistics.jsx",
+    "app": "📊 Data Science"
+  }
+]
