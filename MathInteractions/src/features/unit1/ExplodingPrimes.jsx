@@ -81,8 +81,7 @@ export default function ExplodingPrimes() {
         });
     };
 
-    const renderTree = (node) => {
-        const isPrime = getPrimeFactors(node.value).length === 1 && node.value !== 1; // Simplistic check, actually strictly prime check is better, but this works for >1
+    const renderTree = (node, depth = 0) => {
         const actualIsPrime = (n) => {
             if (n <= 1) return false;
             for (let i = 2; i * i <= n; i++) if (n % i === 0) return false;
@@ -108,11 +107,11 @@ export default function ExplodingPrimes() {
                             className="flex flex-col items-center mt-2"
                         >
                             <ArrowDown className="w-4 h-4 text-slate-400 mb-2" />
-                            <div className="flex gap-8 relative">
+                            <div className="flex relative" style={{ gap: `${Math.max(0.5, 3 - depth * 0.5)}rem` }}>
                                 {/* Connecting lines could be SVG, here just using gap */}
                                 {node.children.map(child => (
                                     <div key={child.id} className="relative">
-                                        {renderTree(child)}
+                                        {renderTree(child, depth + 1)}
                                     </div>
                                 ))}
                             </div>
@@ -125,7 +124,7 @@ export default function ExplodingPrimes() {
 
     return (
         <div className="space-y-6">
-            <div className="flex flex-col items-center gap-6 p-8 bg-slate-50 rounded-xl">
+            <div className="flex flex-col items-center gap-6 p-8 bg-slate-50 rounded-xl overflow-x-auto">
                 <div className="flex gap-4 items-center">
                     <label className="font-semibold text-slate-700">Explode Number:</label>
                     <input
@@ -138,7 +137,6 @@ export default function ExplodingPrimes() {
                         }}
                         className="p-2 border rounded-md w-24 text-center font-mono"
                         min="2"
-                        max="999"
                     />
                     <button
                         onClick={reset}
@@ -148,8 +146,8 @@ export default function ExplodingPrimes() {
                     </button>
                 </div>
 
-                <div className="mt-8">
-                    {renderTree(tree)}
+                <div className="mt-8 min-w-max">
+                    {renderTree(tree, 0)}
                 </div>
 
                 <p className="text-sm text-slate-500 mt-8 max-w-md text-center">

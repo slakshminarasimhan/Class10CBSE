@@ -4,8 +4,8 @@ import PracticalAssignment from '../../components/PracticalAssignment';
 import { Check, Info } from 'lucide-react';
 
 export default function DistanceFormula() {
-    const [p1, setP1] = useState({ x: 2, y: 3 });
-    const [p2, setP2] = useState({ x: 8, y: 7 });
+    const [p1, setP1] = useState({ x: 1, y: 2 });
+    const [p2, setP2] = useState({ x: 4, y: -2 });
     const [isDragging, setIsDragging] = useState(null);
 
     const width = 400;
